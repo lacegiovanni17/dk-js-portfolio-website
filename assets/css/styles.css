@@ -155,7 +155,18 @@ body.dark-theme {
 }
 
 /*=============== HEADER & NAV ===============*/
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 2rem;
+  left:0;
+  z-index: var(--z-fixed);
+}
 
+
+.nav {
+  height: calc(var(--header-height) + .5)
+}
 
 /* Show menu */
 
