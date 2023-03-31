@@ -624,7 +624,39 @@ body.dark-theme {
 }
 
 /*=============== TESTIMONIAL ===============*/
+.testimonial {
+  position: relative;
+}
 
+.testimonial__content {
+  text-align: center;
+}
+
+.testimonial__description{
+  font-family: var(--title-font);
+  color: var(--title-color);
+  margin-bottom: 1.5rem;
+}
+
+.testimonial__name{
+  font-family: var(--body-font);
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.testimonial__subtitle {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.testimonial__img {
+  width: 70px;
+  transform: rotate(30deg);
+  position: absolute;
+  top: 5rem;
+  right: -1.5rem;
+  opacity: .1;
+}
 
 /* Swiper class */
 
