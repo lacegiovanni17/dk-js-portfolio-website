@@ -31,8 +31,25 @@ const linkAction = () => {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== SWIPER PROJECTS ===============*/
-
-
+let swiperProjects = new Swiper(".projects__container", {
+  spaceBetween: 24,
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        1200: {
+            slidesPerView: 5,
+            spaceBetween: -56,
+        },
+    }
+});
 /*=============== SWIPER TESTIMONIAL ===============*/
 
 

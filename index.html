@@ -11,7 +11,7 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -93,7 +93,7 @@
                                 <img src="assets/img/perfil.png" alt="home perfil">
                             </div>
                             <!-- <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes"> -->
-                            <!-- <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle"> -->
+                            <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
                         </div>
                         <ul class="home__social">
                             <a href="https://www.linkedin.com/in/chidike-chizoba-25628a40/" target="_blank" class="home__social-link">
@@ -192,9 +192,9 @@
                             </div>
                             <div class="skills__data">
                                 <div class="skills__blob">
-                                    <img src="assets/img/css-3.svg" alt="skills image">
+                                    <img src="assets/img/nodejs-icon.svg" alt="skills image">
                                 </div>
-                                <h3 class="skills__name">CSS</h3>
+                                <h3 class="skills__name">NodeJS</h3>
                                 <span class="skills__subtitle">Advanced</span>
                             </div>
                             <div class="skills__data">
@@ -389,48 +389,83 @@
                 <h2 class="section__title">Projects</h2>
                 <span class="section__subtitle">Most recent work</span>
                 <div class="container section__border">
-                    <div class="projects__container">
-                        <div>
+                    <div class="projects__container swiper">
+                        <div class="swiper-wrapper">
                     <!--==================== PROJECT 1 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
 
 
                                 <div>
                                     <span class="projects__subtitle">Web</span>
-                                    <h1 class="projects__button">Blog</h1>
+                                    <h1 class="projects__title">Modern Blog</h1>
                                     <a href="https://hengine-blog-1.vercel.app/" class="projects__button">
-                                        View Demo <i class="ri-arrow-right-line"></i>
+                                        View <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
                             <!--==================== PROJECT 2 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
 
 
                                 <div>
-                                    <span class="projects__subtitle"></span>
-                                    <h1 class="projects__button"></h1>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">Game</h1>
                                     <a href="https://blackjack-dk-js.netlify.app" class="projects__button">
-                                        View Demo <i class="ri-arrow-right-line"></i>
+                                        View <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
                             <!--==================== PROJECT 3 ====================-->
-                            <div class="projects__content">
+                            <div class="projects__content swiper-slide">
                                 <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
 
 
                                 <div>
-                                    <span class="projects__subtitle"></span>
-                                    <h1 class="projects__button"></h1>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">Dating site</h1>
                                     <a href="https://tindog-dating-site-js.netlify.app" class="projects__button">
-                                        View Demo <i class="ri-arrow-right-line"></i>
+                                        View <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 4 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
+
+
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">Animation</h1>
+                                    <a href="https://drumkit-for-dk.netlify.app" class="projects__button">
+                                        View <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--==================== PROJECT 5 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/img/project5.jpg" alt="projects image" class="projects__img">
+
+
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h1 class="projects__title">CRUD WebApp</h1>
+                                    <a href="https://todolist-app-by-chidike.netlify.app" class="projects__button">
+                                        View <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
+                        <!-- Swiper arrows -->
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                        <!-- Swiper pagination -->
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </section>
@@ -459,7 +494,7 @@
         <script src=""></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
         

@@ -539,10 +539,89 @@ body.dark-theme {
   opacity: 1;
 }
 /*=============== PROJECTS ===============*/
+.projects__container{
+  overflow: initial;
+}
 
+.projects__content {
+  display: grid;
+  justify-content: center;
+}
 
+.projects__img {
+  width: 250px;
+  border-radius: .75rem;
+  margin-bottom: 1.25rem;
+}
+
+.projects__subtitle {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
+
+.projects__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+  margin: .5rem 0 1.25rem;
+}
+
+.projects__button {
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+}
+
+.projects__button i{
+  font-size: 1rem;
+  transition: transform .3s;
+}
+
+.projects__button:hover i{
+  transform: translateX(.25rem);
+}
 /* Swiper class */
+.projects__container .swiper-button-prev::after,
+.projects__container .swiper-button-next::after{
+  content: '';
+} 
 
+.projects__container .swiper-button-prev,
+.projects__container .swiper-button-next{
+  width: initial;
+  height: initial;
+  margin: initial;
+  font-size: 2.5rem;
+  color: var(--title-color);
+}
+
+.projects__container .swiper-button-prev::after{
+  left: -1rem;
+  top: 4.5rem;
+}
+
+.projects__container .swiper-button-next::after{
+  right: -1rem;
+  top: 4.5rem;
+}
+
+.projects__container .swiper-slide{
+  margin-bottom: 4.5rem;
+}
+
+.projects__container .swiper-pagination-bullet{
+  bottom: 0;
+}
+
+.projects__container .swiper-pagination-bullet{
+  background-color: var(--text-color-light);
+  opacity: initial;
+}
+
+.projects__container .swiper-pagination-bullet-active{
+  background-color: var(--title-color);
+}
 
 /*=============== TESTIMONIAL ===============*/
 
