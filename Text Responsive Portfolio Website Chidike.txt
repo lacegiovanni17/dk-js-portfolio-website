@@ -181,7 +181,7 @@ Testimonial
 My client saying
 
 .testimonial__description .testimonial__name .testimonial__subtitle
-“Working with Chris is to give a good 
+“Working with Chidike is to give a good 
 impression, I carry out my project at a good 
 cost, with excellent quality and attention. 
 Great service and recommended.”
