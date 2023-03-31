@@ -585,7 +585,7 @@ body.dark-theme {
 .projects__container .swiper-button-prev::after,
 .projects__container .swiper-button-next::after{
   content: '';
-} 
+}
 
 .projects__container .swiper-button-prev,
 .projects__container .swiper-button-next{
