@@ -120,8 +120,39 @@ body.dark-theme {
     Color changes in some parts of 
     the website, in light theme
 ==========*/
+.dark-theme .nav,
+.dark-theme .nav__menu,
+.dark-theme .scrollup{
+  background-color: var(--container-color);
+  box-shadow: 0 4px 20px hsla(207, 24%, 8%, .4);
+}
 
+.dark-theme .home__shapes-wawes,
+.dark-theme .home__shapes-circle,
+.dark-theme .qualification__img,
+.dark-theme .testimonial__img{
+ filter: invert(1);
+}
 
+.dark-theme .home__social-link{
+  color: var(--title-color);
+}
+
+.dark-theme .section__border{
+  border-bottom: 1px solid hsl(207, 4%, 32%);
+}
+
+.dark-tbeme::-webkit-scrollbar{
+  background-color: hsl(207, 4%, 15%);
+}
+
+.dark-tbeme::-webkit-scrollbar-thumb {
+  background-color: hsl(207, 4%, 25%);
+}
+
+.dark-tbeme::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(207, 4%, 35%);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
@@ -183,6 +214,7 @@ body.dark-theme {
   box-shadow: 0 4px 20px hsla(207, 24%, 35%, .1);
   padding-inline: 1.5rem;
   border-radius: 3rem;
+  transition: background .4s; /* for dark mode animation */
 }
 
 .nav__logo,
@@ -286,6 +318,7 @@ body.dark-theme {
   justify-self: center;
   border-radius: 6.25rem;
   place-items: center;
+  transition: background .4s; /* for dark mode animation */
 }
 
 .home__perfil {
