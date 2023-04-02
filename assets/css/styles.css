@@ -246,7 +246,9 @@ body.dark-theme {
 }
 
 /* Active link */
-
+.active-link{
+  color: var(--title-color);
+}
 
 /*=============== HOME ===============*/
 .home__container {
@@ -883,10 +885,39 @@ body.dark-theme {
   color: var(--text-color-light);
 }
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(60, 6%, 35%);
+}
 
+::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  background-color: hsl(60, 95%, 49%);
+}
 
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(60, 95%, 59%);
+}
 /*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: var(--body-color);
+  box-shadow: 0 4px 12px hsl(207, 24%, 35%, .15);
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  font-size: 1.1rem;
+  color: var(--title-color);
+  z-index: var(--z-tooltip);
+  transition: bottom .3s, transform .3s;
+}
 
+.scrollup:hover {
+  transform: translateY(-.25rem);
+}
 
 /* Show Scroll Up*/
 
