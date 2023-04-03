@@ -1,11 +1,9 @@
 # dk-js-portfolio-website
-# dk-js-portfolio-website
 
 ## About
 * 👋 Hi, I’m Chidike Henry 
 * 😎 I’m a web developer 
 * 💻 This is a personal portfolio website made with HTML, CSS and JS.
-* 🌍 Website:  
 * 🌍 Website:  
 * 💞️ I’m looking to collaborate on JS projects 
 * 📫 How to reach me chidike.henry@gmail.com
